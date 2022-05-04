@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#navBar{
+    background-color: gray;
+    border: 2px solid #000;
+}
+.header_nav{
+    width: 100%;
+}
+.logo{
+    float: left;
+    color: #fff;
+}
+.nav_links{
+    text-align: center;
+    clear: both;
+}
+.btn_menu_box{
+    float: right;
+    padding: 15px;
+}
+.btn_menu{
+    border: 2px solid #000;
+}
+.btn_menu span{
+    width: 25px;
+    height: 3px;
+    margin: 3px;
+    background-color: black;
+    display: block;
+}
+
+section > div h2{
+    text-align: center;
+    margin: 3% 0 6% 0;
+}
+.text_box{
+    padding: 5px;
+    margin-bottom: 30px;
+    background-color: gray;
+}
+.text_box h4{
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.text_box p{
+    padding: 15px;
+}
+
+@media (max-width: 575px){
+    .logo{
+        padding: 15px;
+    }
+    .container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .navbar{
+        padding-bottom: 0px;
+    }
+    .btn_menu:focus{
+        box-shadow: none;
+        border-color: #fff;
+        transition: 0.5s ease-in-out;
+    }
+    .btn_menu:focus span{
+        background-color: #fff;
+    }
+    .nav_links ul{ 
+        background-color: #fff;
+    }
+    .nav_links ul li{
+        border-bottom: 2px solid #000;
+    }
+    .nav_links ul li:last-child{
+        border-bottom: none;
+    }
+    .nav_links ul li a{
+        color: #000;
+        text-transform: capitalize;
+    }
+}
